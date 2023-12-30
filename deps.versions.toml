@@ -8,20 +8,22 @@ reaktive = "1.2.3"
 junit = "4.13.2"
 jetbrainsCompose = "1.5.11"
 jetbrainsKotlinWrappers = "1.0.0-pre.608"
-jetbrainsKotlinxCoroutines = "1.6.4"
-jetbrainsKotlinxSerialization = "1.6.0"
+jetbrainsKotlinxCoroutines = "1.7.3"
+jetbrainsKotlinxSerialization = "1.6.2"
 jetbrainsBinaryCompatibilityValidator = "0.13.2"
-jetpackCompose = "1.5.0"
+jetpackCompose = "1.5.4"
 jetpackComposeCompiler = "1.5.6"
 androidGradle = "8.0.2"
-androidMaterial = "1.6.1"
+androidMaterial = "1.11.0"
 androidPlay = "1.10.3"
-androidxCore = "1.9.0"
-androidxAppcompat = "1.6.0"
-androidxLifecycle = "2.5.1"
-androidxActivity = "1.6.1"
-androidxFragment = "1.1.0"
+androidxCore = "1.12.0"
+androidxAppcompat = "1.6.1"
+androidxLifecycle = "2.6.2"
+androidxActivity = "1.8.2"
+androidxFragment = "1.6.2"
 androidxTestCore = "1.5.0"
+
+
 
 [libraries]
 
@@ -67,3 +69,4 @@ androidx-activity-activityKtx = { group = "androidx.activity", name = "activity-
 androidx-activity-activityCompose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidxActivity" }
 androidx-fragment-fragmentKtx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "androidxFragment" }
 androidx-test-core = { group = "androidx.test", name = "core", version.ref = "androidxTestCore" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version = "androidxLifecyclee" }

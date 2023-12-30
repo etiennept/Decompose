@@ -23,6 +23,9 @@ setupBinaryCompatibilityValidator()
 android {
     namespace = "com.arkivanov.decompose.extensions.compose.jetbrains"
 }
+dependencies {
+    implementation("androidx.activity:activity-compose:1.8.2")
+}
 
 kotlin {
     setupSourceSets {
@@ -46,6 +49,8 @@ kotlin {
 
         android.main.dependencies {
             implementation(deps.androidx.activity.activityKtx)
+            implementation(deps.androidx.activity.activityCompose)
+            implementation(deps.androidx.lifecycle.viewmodel.compose)
         }
 
         jvm.test.dependencies {
